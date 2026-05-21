@@ -1,35 +1,78 @@
 
+body {
+    margin: 0;
+    /* font-family: "Playfair Display", serif; */
+}
 
 .panel {
+    background-color: white;
     display:flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     align-items: center;
     position:sticky;
     top:0;
+    padding: 10px;
+}
+
+.brand {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+.logo {
+    width: 75px;
+    height: 75px;
 }
 
 h1 {
     text-align: left;
-    padding-left: 10px;
+    padding-left: 30px;
+    font-weight: normal;
 }
 
 .container {
     display:flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 25px
+}
+
+h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
 }
 
 .B {
-    background-color: lightgreen;
+    background-color: transparent;
     border-radius: 10px;
     padding: 10px 25px;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
+    border: none;
+    color: black;
     font-size: 16px;
     cursor: pointer;
 }
 
 .B:hover {
-    background-color: green;
+    /*background-color: green;*/
+    color: lightgreen;
 }
 
+.block {
+    background-color: rgb(144, 206, 144);
+    padding: 40px;
+}
+
+.blockAlt {
+    background-color: white;
+    padding: 40px;
+}
+
+footer {
+    padding-left:10px;
+}
