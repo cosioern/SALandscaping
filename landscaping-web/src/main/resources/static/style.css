@@ -100,6 +100,7 @@ h2 {
     font-weight: normal;
     font-size: 70px;
     margin: 0;
+    padding-bottom:4rem;
 }
 
 p {
@@ -112,7 +113,18 @@ p {
 .block {
     /* background-color: rgb(144, 206, 144); */
     background-color: white;
-    padding: 40px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+.block h2, .services {
+    width: 100%;
+    max-width: 1200px;
+
 }
 
 .blockAlt {
@@ -121,16 +133,16 @@ p {
 }
 
 .services {
-    display:flex;
-    gap:20px;
-    justify-content:space-between
+    display:grid;
+    gap:2rem;
+    grid-template-columns: repeat(2, minmax(320px, 1fr));
+    width:100%;
 }
 
 .card {
-    flex:1;
-    align-items: center;
-    gap:15px;
-    text-align:center;
+    display:flex;
+    align-items: flex-start;
+    gap:1rem;
 }
 
 .card img {
@@ -140,6 +152,32 @@ p {
     object-fit:cover;
 }
 
+.card-content {
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    width:100%;
+}
+
+.card h3 {
+    margin:0;
+    font-size:2rem;
+    text-align:left;
+
+}
+
+.card p {
+    /* margin: 0.5rem 0 0 0; */
+    text-align:left;
+}
+
 footer {
-    padding-left:10px;
+    display: flex;
+    justify-content: flex-start;
+    background-color:black;
+}
+
+footer p {
+    font-size:10px;
+    color:white;
 }
