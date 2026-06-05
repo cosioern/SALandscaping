@@ -1,4 +1,4 @@
-
+/* Home Page */
 body {
     margin: 0;
     /* font-family: "Playfair Display", serif; */
@@ -317,4 +317,52 @@ footer p {
     color:white;
     background-color:purple;
     cursor:pointer;
+}
+
+
+/* About Us Page */
+.AboutBlock {
+    display:flex;
+    background-color: black;
+    height: 700px;
+}
+
+.Jose {
+    width:45%;
+    height:650px;
+    align-self: center;
+    display:block;
+    border-radius: 30px;
+    margin-right: 2rem;
+}
+
+.blockText {
+    flex:1;
+    align-self: center;
+    color: white;
+}
+
+.blockText p {
+    color: white;
+}
+
+.AboutBlockAlt {
+    display: flex;
+    background-color: white;
+    min-height: 700px;
+}
+
+.Local {
+    width:45%;
+    height:650px;
+    align-self: center;
+    display:block;
+    border-radius: 30px;
+    margin-right: 2rem;
+}
+
+.blockTextAlt {
+    flex:1;
+    align-self: center;
+    color:black;
 }
