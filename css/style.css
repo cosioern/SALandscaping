@@ -374,7 +374,10 @@ footer p {
     display:flex;
     flex-direction: column;
     background-color: #EEF4FF;
-    /* height:10rem; */
+    height:40rem;
+    /* justify-content: center; */
+    align-items: center;
+    padding-bottom: 3rem;
 }
 
 .midSection h2 {
@@ -392,13 +395,27 @@ footer p {
     font-weight: normal;
 }
 
-.form {
+/* form {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
     padding-bottom: 3rem;
-    /* padding:1rem; */
+    gap:1rem;
+    border-radius: 0.5rem;
+    padding:1rem;
+} */
+
+fieldset {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:1rem;
+
+    border-radius:0.5rem;
+    padding: 1rem;
 }
 
-.fieldset {
-    border: 2px solid #ccc;
-    border-radius:8px;
-    padding: 1rem;
+input {
+    /* gap:4rem; */
+    /* margin-bottom: 1rem; */
+    /* padding:1rem; */
+    justify-self: center;
 }
