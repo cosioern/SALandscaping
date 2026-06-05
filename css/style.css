@@ -1,4 +1,4 @@
-/* Home Page */
+/* HomePage */
 body {
     margin: 0;
     /* font-family: "Playfair Display", serif; */
@@ -320,7 +320,7 @@ footer p {
 }
 
 
-/* About Us Page */
+/* AboutUs Page */
 .AboutBlock {
     display:flex;
     background-color: black;
@@ -365,4 +365,40 @@ footer p {
     flex:1;
     align-self: center;
     color:black;
+}
+
+/* ContactUs Page */
+
+.midSection {
+    /* background-color: #FAF9F6; */
+    display:flex;
+    flex-direction: column;
+    background-color: #EEF4FF;
+    /* height:10rem; */
+}
+
+.midSection h2 {
+    padding-top: 3rem;
+
+}
+
+.midSection h3 {
+    align-self: center;
+    font-size:1.5rem;
+}
+
+.midSection p {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.form {
+    padding-bottom: 3rem;
+    /* padding:1rem; */
+}
+
+.fieldset {
+    border: 2px solid #ccc;
+    border-radius:8px;
+    padding: 1rem;
 }
